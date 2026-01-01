@@ -35,7 +35,7 @@ export function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-4">
             <div className="flex items-center gap-2">
-              <Link href="/">
+              <Link href="/dashboard">
                 <Button variant="ghost" size="sm" className="gap-2">
                   <BarChart3 className="h-4 w-4" />
                   Dashboard
@@ -53,7 +53,7 @@ export function Header() {
                   7KOLS
                 </Button>
               </Link>
-              <Link href="/nft-marketplace">
+              <Link href="/">
                 <Button variant="ghost" size="sm" className="gap-2">
                   <ImageIcon className="h-4 w-4" />
                   NFT Marketplace
@@ -120,7 +120,7 @@ export function Header() {
                 7KOLS System
               </Button>
             </Link>
-            <Link href="/nft-marketplace">
+            <Link href="/">
               <Button variant="ghost" size="sm" className="w-full justify-start gap-2">
                 <ImageIcon className="h-4 w-4" />
                 NFT Marketplace
